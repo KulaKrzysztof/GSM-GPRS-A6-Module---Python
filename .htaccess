@@ -1,0 +1,4 @@
+<FilesMatch "^(tasks\.db|A6GSMKEY)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
