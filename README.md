@@ -10,3 +10,6 @@ This script consists of:
 * text file with key (token) to HTML form,
 
 This script is checking which user ran their. If this script will by execute by apache (www-data user) -> return will be of html form. After completed the form, data will save in sqlite3 database. If you run script by other user - will be established connection with sqlite3 database. Now with 30 seconds timeout will be downloaded messages from database and will send. 
+
+### Testing
+This Was tested on Orange Pi Zero and Banana Pi M1
